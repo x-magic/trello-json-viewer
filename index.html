@@ -12,7 +12,7 @@
     <script src="knockout-markdown.js"></script>
   </head>
   <body>
-    <div style="position:absolute;z-index:999;background:white;width:100%;"><input type="file" id="json-picker" accept=".json" />&nbsp;<span id="json-result"><-- Pick a .json file of Trello board export</span></div>
+    <div style="position:absolute;z-index:999;background:white;width:100%;"><input type="file" id="json-picker" accept=".json" />&nbsp;<span id="json-result"><-- Pick a .json file of Trello board export, or <a href="https://trello.com/b/HbTEX5hb/employee-manual.json" target="_blank" download>download</a> an example.</span></div>
     <div class="board" data-bind="trelloBoard: board, with: board">
       <div class="header" data-bind="style: {backgroundColor: prefs.backgroundTopColor}">
         <div class="d-flex align-items-center">

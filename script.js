@@ -312,4 +312,5 @@ document.getElementById('json-picker').addEventListener('change', async (e) => {
     }
 
     document.getElementById('json-result').innerText = "Trello board export is loaded. To load another board, refresh the webpage first!";
+    document.getElementById('json-picker').disabled = true;
 });
